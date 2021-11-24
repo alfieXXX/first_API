@@ -1,4 +1,4 @@
-#!c:\users\alfie\documents\apisample\apirest\scripts\python.exe
+#!D:\web dev\backup\apiSample\apiRest\Scripts\python.exe
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
