@@ -8,6 +8,7 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register('list', ListView, basename='listview')
+router.register('api/tutorials/<int:pk>:', ListView, basename='listview')
 router.register('users', UserViewset)
 
 

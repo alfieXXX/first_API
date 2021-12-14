@@ -16,7 +16,7 @@ from django.contrib.auth.models import User
 from rest_framework import viewsets
 
 class ListView(viewsets.ModelViewSet):
-    queryset = ListDetail.objects.all()
+    queryset = ListDetail.objects.all().order_by('id')
     serializer_class = ListUserSerializer
     authentication_classes = [TokenAuthentication]
     permission_classes = [IsAuthenticated]
